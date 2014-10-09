@@ -27,12 +27,9 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eyb-Wc-HAg">
                                 <rect key="frame" x="124" y="190" width="72" height="30"/>
-                                <color key="backgroundColor" red="0.58236528307085578" green="0.78302041932158439" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Convert">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <color key="backgroundColor" red="0.78775879410000005" green="0.86594100669999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Convert"/>
                                 <connections>
                                     <action selector="convertButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4Jw-B0-29i"/>
                                 </connections>
