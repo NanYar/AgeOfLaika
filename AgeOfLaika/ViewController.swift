@@ -9,17 +9,38 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var dogYearsLabel: UILabel!
+    @IBOutlet weak var dogAgeTextField: UITextField!
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+    
 
+    @IBAction func convertButtonPressed(sender: UIButton) {
+        
+        let doubleNumberHumanYears = Double((dogAgeTextField.text as NSString).doubleValue)
+        
+        if doubleNumberHumanYears != 0 {
+            
+            dogYearsLabel.text = "The dog is \(doubleNumberHumanYears * 7) years old"
+            dogYearsLabel.hidden = false
+            dogAgeTextField.resignFirstResponder()
+            dogAgeTextField.text = ""
 
+            
+        } else {
+            
+            dogYearsLabel.text = ""
+            dogAgeTextField.text = ""
+        }
+        
+    }
+    
 }
-
