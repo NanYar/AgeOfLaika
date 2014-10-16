@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1718A0CF19F00B17000B3D94 /* ReplaceCharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1718A0CE19F00B17000B3D94 /* ReplaceCharacterModel.swift */; };
 		17A4F01419E7250F00A0108A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4F01319E7250F00A0108A /* AppDelegate.swift */; };
 		17A4F01619E7250F00A0108A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4F01519E7250F00A0108A /* ViewController.swift */; };
 		17A4F01919E7250F00A0108A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A4F01719E7250F00A0108A /* Main.storyboard */; };
@@ -15,6 +14,7 @@
 		17A4F01E19E7250F00A0108A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A4F01C19E7250F00A0108A /* LaunchScreen.xib */; };
 		17A4F02A19E7250F00A0108A /* AgeOfLaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4F02919E7250F00A0108A /* AgeOfLaikaTests.swift */; };
 		17A4F03419E7268A00A0108A /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17A4F03319E7268A00A0108A /* AgeOfLaika.jpg */; };
+		17F852D019F01DAE00303891 /* HelperFunctionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F852CF19F01DAE00303891 /* HelperFunctionsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1718A0CE19F00B17000B3D94 /* ReplaceCharacterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaceCharacterModel.swift; sourceTree = "<group>"; };
 		17A4F00E19E7250F00A0108A /* AgeOfLaika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeOfLaika.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A4F01219E7250F00A0108A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17A4F01319E7250F00A0108A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		17A4F02819E7250F00A0108A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17A4F02919E7250F00A0108A /* AgeOfLaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeOfLaikaTests.swift; sourceTree = "<group>"; };
 		17A4F03319E7268A00A0108A /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AgeOfLaika.jpg; sourceTree = "<group>"; };
+		17F852CF19F01DAE00303891 /* HelperFunctionsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctionsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 			children = (
 				17A4F01319E7250F00A0108A /* AppDelegate.swift */,
 				17A4F01519E7250F00A0108A /* ViewController.swift */,
-				1718A0CE19F00B17000B3D94 /* ReplaceCharacterModel.swift */,
+				17F852CF19F01DAE00303891 /* HelperFunctionsModel.swift */,
 				17A4F01719E7250F00A0108A /* Main.storyboard */,
 				17A4F01A19E7250F00A0108A /* Images.xcassets */,
 				17A4F01C19E7250F00A0108A /* LaunchScreen.xib */,
@@ -221,7 +221,7 @@
 			files = (
 				17A4F01619E7250F00A0108A /* ViewController.swift in Sources */,
 				17A4F01419E7250F00A0108A /* AppDelegate.swift in Sources */,
-				1718A0CF19F00B17000B3D94 /* ReplaceCharacterModel.swift in Sources */,
+				17F852D019F01DAE00303891 /* HelperFunctionsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
