@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1718A0CF19F00B17000B3D94 /* ReplaceCharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1718A0CE19F00B17000B3D94 /* ReplaceCharacterModel.swift */; };
 		17A4F01419E7250F00A0108A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4F01319E7250F00A0108A /* AppDelegate.swift */; };
 		17A4F01619E7250F00A0108A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4F01519E7250F00A0108A /* ViewController.swift */; };
 		17A4F01919E7250F00A0108A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A4F01719E7250F00A0108A /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1718A0CE19F00B17000B3D94 /* ReplaceCharacterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaceCharacterModel.swift; sourceTree = "<group>"; };
 		17A4F00E19E7250F00A0108A /* AgeOfLaika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeOfLaika.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A4F01219E7250F00A0108A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17A4F01319E7250F00A0108A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				17A4F01319E7250F00A0108A /* AppDelegate.swift */,
 				17A4F01519E7250F00A0108A /* ViewController.swift */,
+				1718A0CE19F00B17000B3D94 /* ReplaceCharacterModel.swift */,
 				17A4F01719E7250F00A0108A /* Main.storyboard */,
 				17A4F01A19E7250F00A0108A /* Images.xcassets */,
 				17A4F01C19E7250F00A0108A /* LaunchScreen.xib */,
@@ -218,6 +221,7 @@
 			files = (
 				17A4F01619E7250F00A0108A /* ViewController.swift in Sources */,
 				17A4F01419E7250F00A0108A /* AppDelegate.swift in Sources */,
+				1718A0CF19F00B17000B3D94 /* ReplaceCharacterModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				17A4F02F19E7250F00A0108A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17A4F03019E7250F00A0108A /* Build configuration list for PBXNativeTarget "AgeOfLaikaTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				17A4F03219E7250F00A0108A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
