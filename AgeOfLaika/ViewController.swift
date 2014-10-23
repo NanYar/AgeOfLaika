@@ -14,9 +14,6 @@ class ViewController: UIViewController
     @IBOutlet weak var dogYearsLabel: UILabel!
     @IBOutlet weak var dogAgeTextField: UITextField!
     
-    let replaceCharacter = replaceCharacterModel
-    let dogYearsConverter = dogYearsConverterModel
-    
 
     override func viewDidLoad()
     {
@@ -31,12 +28,12 @@ class ViewController: UIViewController
 
     @IBAction func convertButtonPressed(sender: UIButton)
     {
-        let humanYearsStringConverted = replaceCharacter(inputString: dogAgeTextField.text, toReplace: ",", replaceWith: ".")
+        let humanYearsStringConverted = Factory.replaceCharacter(inputString: dogAgeTextField.text, toReplace: ",", replaceWith: ".")
         let humanYearsDouble = Double((humanYearsStringConverted as NSString).doubleValue)
         
         if humanYearsDouble != 0
         {           
-            let dogYears = dogYearsConverter(dogAge: humanYearsDouble)
+            let dogYears = Factory.dogYearsConverter(dogAge: humanYearsDouble)
             
             dogYearsLabel.text = "The dog is \(dogYears) years old"
             dogYearsLabel.hidden = false
@@ -48,7 +45,5 @@ class ViewController: UIViewController
             dogYearsLabel.text = ""
             dogAgeTextField.text = ""
         }
-        
     }
-    
 }
